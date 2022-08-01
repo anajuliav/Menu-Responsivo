@@ -2,54 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-
+    font-family: sans-serif;
 }
-
-body{
-    background-image: url(natureza-tratamento-alma.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-}   
 
 header{
-    background-color: #6b6b75;
-    
-}   
-
+    background-color: rgb(100, 48, 48);
+}
+li{
+    list-style: none;
+}
 a{
-    color: #fff;
+    color: rgb(247, 241, 241);
     text-decoration: none;
-    transition: 0.5s ease;
 }
-.navbar{
+.nav-bar{
 
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    justify-content: space-between;
-    
-    
-         
-    
-}
-.navbar :hover{
-    color: royalblue;
-}
-.hanburguer{
-    display: none;
-    cursor: pointer;
+min-height: 70px;
 
-}
-.bar{
-    display: block;
-    width: 28px;
-    height: 3px;
-    border-radius: 2px;
-    margin: 5px auto;
-    background-color: #fff;
-    transition: all 0.3s ease ease-in-out;
 }
