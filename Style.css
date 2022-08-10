@@ -6,60 +6,18 @@
 }
 
 header{
-    background-color: rgb(100, 48, 48);
+    background-color: rgb(219, 219, 219);
 }
-li{
-    list-style: none;
-}
-a{
-    color: rgb(19, 13, 13);
-    text-decoration: none;
-}
+
+
 .nav-bar{
 
-min-height: 70px;
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 0 34px;
-}
+padding: 6rem;
 
-.logo{
-    font-size: 2.3rem;
-    font-weight: bold;
-}
-.nav-menu{
-display: flex;
-align-items: center;
-gap: 60px;
-}
-.nav-link{
-    transition: 0.5s ease;
-    font-size: 1.1rem;
-}
-.nav-link:hover{
-    color: rgb(255, 246, 246);
-}
-.hamburguer{
-    display: none;
-    cursor: pointer;
-}
-.bar{
-    display: block;
-    width: 28px;
-    height: 3px;
-    border-radius: 2px;
-    margin: 5px auto;
-    background-color: rgb(19, 9, 9);
-    transition: all 0.3s ease-in-out;
 }
 
 
- @media (max-width:768px){
-     .hamburguer{
-         display: block;
-     }
- }
-     
- 
 
