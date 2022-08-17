@@ -1,0 +1,17 @@
+.Logo{
+    color: blue;
+}
+.item{
+    color: rgb(235, 5, 44);
+    
+    
+}
+.link{
+    color: rgb(33, 175, 68);
+}
+.lista-desordenada{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
